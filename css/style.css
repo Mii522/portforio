@@ -136,7 +136,7 @@ main {
   margin-right: 50px;
   text-align: right;
 }
-.profile nav {
+.profile .pc-nav {
   display: flex;
   justify-content: flex-end;
   margin-top: 150px;
@@ -447,13 +447,22 @@ main {
   width: 20px;
 }
 .contents_workers .item_arrow {
-  margin-left: 230px;
+  margin-left: 220px;
 }
 .contents_salon .item_arrow {
-  margin-left: 150px;
+  margin-left: 145px;
 }
 .contents_pop .item_arrow {
   margin-left: 260px;
+}
+.contents_lux .item_arrow {
+  margin-left: 280px;
+}
+.contents_pop .item_arrow {
+  margin-left: 265px;
+}
+.contents_books .item_arrow {
+  margin-left: 170px;
 }
 
 .btn_more:hover,
@@ -1707,7 +1716,11 @@ textarea {
 .bunner_left {
   margin-left: -80px;
 }
-
+.bunner_left a,
+.bunner_right a {
+  color: #fffdf3;
+  text-decoration: none;
+}
 .bunner .contents_lux {
   margin-top: 150px;
 }
@@ -2251,7 +2264,12 @@ h1 {
     top: 0;
     transform: rotate(135deg);
   }
-
+  .profile .pc-nav {
+    display: none;
+  }
+  .profile .hamburger {
+    margin-top: 100px;
+  }
   .sp-nav {
     background: rgba(0, 0, 0, .8);
     height: 100vh;
@@ -2548,7 +2566,7 @@ h1 {
     max-width: 43%;
   }
   .scroll-infinity {
-    top: 7%;
+    top: 12%;
     width: 400%;
   }
   .contents_firstview p {
@@ -2644,14 +2662,16 @@ h1 {
     top: 0;
     transform: rotate(135deg);
   }
-
+  .scroll-infinity {
+    top: 9%;
+  }
   .circle {
     border-radius: 50%;
-    height: 30px;
+    height: 25px;
     margin-left: 40px;
     position: relative;
     top: 45px;
-    width: 30px;
+    width: 25px;
   }
 
 
@@ -2700,7 +2720,7 @@ h1 {
   }
   .footer_beige p {
     left: 70px;
-    top: 57px;
+    top: 52px;
   }
   .contents_workers {
     margin-top: 70px;
@@ -2805,17 +2825,20 @@ h1 {
   }
 
   .contents_circle {
-    height: 30px;
+    height: 25px;
     margin-left: 10%;
-    top: 45px;
-    width: 30px;
+    margin-top: 50px;
+    width: 25px;
+  }
+  .txt_website {
+    margin-top: -21px;
   }
 
   .contact_circle {
-    height: 30px;
+    height: 25px;
     margin-left: -115px;
     top: 45px;
-    width: 30px;
+    width: 25px;
   }
 
   .txt_contact {
@@ -2867,19 +2890,30 @@ h1 {
   .profile_firstview p {
     font-size: 13px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 40px;
     width: 285px;
+  }
+  .profile_firstview {
+    margin-top: 70px;
+  }
+  .bar-graph-wrap {
+    height: 420px;
   }
 
   .profile img {
     max-width: 150px;
   }
-
+  .sp-content {
+    margin-top: 50px;
+  }
   .sp-carrer {
     margin-left: 30px;
   }
   .sp-carrer {
     max-width: 17px;
+  }
+  .career {
+    margin-top: -50px;
   }
   .career_wrap {
     left: 55px;
@@ -2908,9 +2942,15 @@ h1 {
   .box3 {
     width: 285px;
   }
+  .skill_wrap {
+    margin-top: 100px;
+  }
   .skill_left img,
   .skill_right img {
     margin-bottom: 20px;
+  }
+  .footer {
+    margin-top: 70px;
   }
   .footer_logo img {
     max-width: 170px;
@@ -2922,14 +2962,14 @@ h1 {
     max-width: 60px;
   }
   .footer_circle {
-    height: 30px;
+    height: 25px;
     left: 30px;
     top: 50px;
-    width: 30px;
+    width: 25px;
   }
   .footer p {
     left: 70px;
-    top: 58px;
+    top: 53px;
   }
   .footer_logo img {
     margin-top: 100px;
@@ -2981,7 +3021,7 @@ h1 {
   }
   .web_txt_works {
     margin-left: 40px;
-    top: 5px;
+    top: 3px;
   }
   .section_works_web ul li,
   .section_works_all ul li,
