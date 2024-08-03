@@ -32,18 +32,16 @@
                     <li class="animoBorderLeftRight"><a href="index.html#contact">contact</a></li>
                 </ul>
             </nav>
-
-            <div class="hamburger"><span></span> </div>
-            <nav class="sp-nav">
-                <ul>
-                    <li><a href="index.html#home">home</a></li>
-                    <li><a href="index.html#works">works</a></li>
-                    <li><a href="index.html#about">about</a></li>
-                    <li><a href="index.html#contact">contact</a></li>
-                </ul>
-            </nav>
         </div>
-
+        <div class="hamburger"><span></span> </div>
+        <nav class="sp-nav">
+            <ul>
+                <li><a href="index.html#home">home</a></li>
+                <li><a href="index.htm#works">works</a></li>
+                <li><a href="index.htm#about">about</a></li>
+                <li><a href="index.htm#contact">contact</a></li>
+            </ul>
+        </nav>
         </div>
 
         <div class="main_logo"><img src="links/2x/logo_gray@2x.png" alt="メインロゴ"></div>
@@ -57,7 +55,7 @@
                 <p class="all_txt_works">works > all</p>
             </div>
             <ul>
-                <li class="btn_all">all</li>
+                <li class="btn_all"><a href="">all</a></li>
                 <li class="btn_website"><a href="website.html">website</a></li>
                 <li class="btn_bunner"><a href="bunner.html">bunner</a></li>
             </ul>
@@ -112,8 +110,8 @@
 <footer class="footer_beige">
         <div class="footer_circle"></div>
         <p>works > all</p>
-        <ul class="footer_nav_beige">
-            <li class="btn_all">all</a></li>
+        <ul class="all_footer_nav_beige">
+            <li class="btn_all"><a href="">all</a></li>
             <li class="btn_website"><a href="website.html">website</a></li>
             <li class="btn_bunner"><a href="bunner.html">bunner</a></li>
         </ul>
@@ -140,6 +138,12 @@
 
 
 <script>
+    setTimeout(function() {
+    if (document.getElementsByTagName("html")[0].classList.contains('wf-active') != true) {
+        document.getElementsByTagName("html")[0].classList.add('loading-delay');
+    }
+}, 3000);
+
     (function (d) {
         var config = {
             kitId: 'yxu3ftu',

@@ -23,8 +23,8 @@
             <li class="animoBorderLeftRight"><a href="index.html#contact">contact</a></li>
         </ul>
         </nav>
-    </div>    
-</header>
+     
+
 
 <div class="hamburger"><span></span> </div>
 <nav class="sp-nav">
@@ -35,8 +35,8 @@
         <li><a href="index.html#contact">contact</a></li>
 </ul>
 </nav>
-</div>
-
+</div>  </div> 
+</header>
     <!-- メイン -->
 <main>
     <section class="fistview">
@@ -44,7 +44,7 @@
     <p class="txt_website">about > my profile</p> 
     <div class="profile_firstview">  
         <div class="profile"><img src="links/2x/profile@2x.png" alt="プロフィール画像"></div>
-        <p>仕事も遊びも全力でやり切りたい、納得するまで突き詰めたい、それガ私です。<br>
+        <p>仕事も遊びも全力でやり切りたい、納得するまで突き詰めたい、それが私です。<br>
         ホテルでの接客で培ったお客様や同僚のニーズの先読み力と深掘り力、不動産
         営業で学んだ結果が出るまで諦めない粘り強さを活かして、webデザインを通し
         人と人を繋ぐ架け橋となれるよう成長を続けていきます。<br>
@@ -199,6 +199,12 @@
     </footer>
 
     <script>
+      setTimeout(function() {
+    if (document.getElementsByTagName("html")[0].classList.contains('wf-active') != true) {
+        document.getElementsByTagName("html")[0].classList.add('loading-delay');
+    }
+}, 3000);
+
         (function (d) {
             var config = {
                 kitId: 'yxu3ftu',

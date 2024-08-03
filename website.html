@@ -37,10 +37,10 @@
         <div class="hamburger"><span></span> </div>
         <nav class="sp-nav">
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#works">works</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="index.html#home">home</a></li>
+                <li><a href="index.html#works">works</a></li>
+                <li><a href="index.html#about">about</a></li>
+                <li><a href="index.html#contact">contact</a></li>
         </ul>
         </nav>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <ul>
                 <li class="btn_all"><a href="all.html">all</a></li>
-                <li class="btn_website">website</li>
+                <li class="btn_website"><a href="">website</a></li>
                 <li class="btn_bunner"><a href="bunner.html">bunner</a></li>
             </ul>
             <div class="web_logo_works"><img src="links/SVG/logo_works.svg" alt="装飾文字works"></div>
@@ -94,9 +94,9 @@
     <footer class="footer_beige">
             <div class="footer_circle"></div>
             <p>works > website</p>
-            <ul class="footer_nav_beige">
+            <ul class="web_footer_nav_beige">
                 <li class="btn_all"><a href="all.html">all</a></li>
-                <li class="btn_website">website</li>
+                <li class="btn_website"><a href="">website</a></li>
                 <li class="btn_bunner"><a href="bunner.html">bunner</a></li>
             </ul>
         <div class="footer_logo_gray">
@@ -121,6 +121,12 @@
     </footer>
       
 <script>
+    setTimeout(function() {
+    if (document.getElementsByTagName("html")[0].classList.contains('wf-active') != true) {
+        document.getElementsByTagName("html")[0].classList.add('loading-delay');
+    }
+}, 3000);
+
     (function (d) {
         var config = {
             kitId: 'yxu3ftu',

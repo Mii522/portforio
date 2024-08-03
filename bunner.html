@@ -36,10 +36,10 @@
         <div class="hamburger"><span></span> </div>
         <nav class="sp-nav">
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#works">works</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="index.html#home">home</a></li>
+                <li><a href="index.htm#works">works</a></li>
+                <li><a href="index.htm#about">about</a></li>
+                <li><a href="index.htm#contact">contact</a></li>
             </ul>
         </nav>
         </div>
@@ -50,14 +50,14 @@
 
     <!-- メイン -->
     <main>
-        <section class="section_works_web">
+        <section class="section_works_bunner">
             <div class="circle">
                 <p class="bunner_txt_works">works > bunner</p>
             </div>
             <ul>
                 <li class="btn_all"><a href="all.html">all</a></li>
                 <li class="btn_website"><a href="website.html">website</a></li>
-                <li class="btn_bunner">bunner</li>
+                <li class="btn_bunner"><a href="">bunner</a></li>
             </ul>
             <div class="bunner_logo_works"><img src="links/SVG/logo_works.svg" alt="装飾文字works"></div>
             <div class="bunner">
@@ -100,10 +100,10 @@
 <footer class="footer_beige">
     <div class="footer_circle"></div>
     <p>works > bunner</p>
-    <ul class="footer_nav_beige">
+    <ul class="bunner_footer_nav_beige">
         <li class="btn_all"><a href="all.html">all</a></li>
         <li class="btn_website"><a href="website.html">website</a></li>
-        <li class="btn_bunner">bunner</li>
+        <li class="btn_bunner"><a href="">bunner</a></li>
     </ul>
 <div class="footer_logo_gray">
         <img src="links/2x/logo_gray@2x.png" alt="フッターロゴ">
@@ -125,6 +125,12 @@
 </footer>
 
 <script>
+    setTimeout(function() {
+    if (document.getElementsByTagName("html")[0].classList.contains('wf-active') != true) {
+        document.getElementsByTagName("html")[0].classList.add('loading-delay');
+    }
+}, 3000);
+
     (function (d) {
         var config = {
             kitId: 'yxu3ftu',

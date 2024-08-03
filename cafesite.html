@@ -102,7 +102,7 @@
         <p>works > website</p>
         <ul class="footer_nav">
             <li class="btn_all"><a href="all.html">all</a></li>
-            <li class="btn_website">website</li>
+            <li class="btn_website"><a href="">website</a></li>
             <li class="btn_bunner"><a href="bunner.html">bunner</a></li>
         </ul>
     <div class="footer_logo">
@@ -126,6 +126,12 @@
      </footer>
 
      <script>
+        setTimeout(function() {
+    if (document.getElementsByTagName("html")[0].classList.contains('wf-active') != true) {
+        document.getElementsByTagName("html")[0].classList.add('loading-delay');
+    }
+}, 3000);
+
         (function (d) {
             var config = {
                 kitId: 'yxu3ftu',
