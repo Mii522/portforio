@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.39 46.3">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .05em;
+      }
+
+      .cls-2 {
+        fill: #404648;
+        font-family: TsukuARdGothicStd-R-83pv-RKSJ-H, 'FOT-TsukuARdGothic Std';
+        font-size: 16px;
+      }
+    </style>
+  </defs>
+  <g id="letter">
+    <text class="cls-2" transform="translate(0 14.08)"><tspan x="0" y="0">© portfolio I</tspan><tspan class="cls-1" x="90.93" y="0">’</tspan><tspan x="96.08" y="0">m MIYUKI SAITO All rights reserved.</tspan></text>
+  </g>
+</svg>

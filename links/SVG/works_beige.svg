@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 527.25 1653.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        font-family: TsukuARdGothicStd-R-83pv-RKSJ-H, 'FOT-TsukuARdGothic Std';
+        font-size: 460px;
+        opacity: .2;
+        stroke: #fffdf3;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="letter">
+    <text class="cls-1" transform="translate(121.94 .5) rotate(90) scale(.98 1)"><tspan x="0" y="0">WORKS</tspan></text>
+  </g>
+</svg>
