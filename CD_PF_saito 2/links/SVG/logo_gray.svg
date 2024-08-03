@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.62 155.87">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .05em;
+      }
+
+      .cls-2 {
+        font-size: 50px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #404648;
+        font-family: TsukuARdGothicStd-B-83pv-RKSJ-H, 'FOT-TsukuARdGothic Std';
+      }
+
+      .cls-4 {
+        fill: #68b1ab;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-size: 125px;
+      }
+
+      .cls-5 {
+        fill: #fffdf3;
+      }
+    </style>
+  </defs>
+  <g id="letter">
+    <text class="cls-3" transform="translate(0 110)"><tspan x="0" y="0">portforio</tspan></text>
+    <rect class="cls-5" x="34.84" y="83.14" width="453.93" height="72.73"/>
+    <text class="cls-2" transform="translate(42.34 135.63)"><tspan x="0" y="0">I</tspan><tspan class="cls-1" x="15.1" y="0">’</tspan><tspan x="31.85" y="0">m MIYUKI SAITO</tspan></text>
+    <circle class="cls-4" cx="431.89" cy="24.73" r="9.5"/>
+  </g>
+</svg>
