@@ -2568,7 +2568,6 @@ h1 {
   }
   .scroll-infinity {
     top: 12%;
-    width: 400%;
   }
   .contents_firstview p {
     margin-left: 15%;
@@ -3033,7 +3032,7 @@ h1 {
   .workers_plan,
   .workers_points p,
   .workers_design {
-    width: 300px;
+    width: 320px;
   }
   .footer .footer_nav {
     display: none;
@@ -3161,7 +3160,7 @@ h1 {
     max-width: 380px;
   }
   .workers_inner_right {
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: -50px;
   }
   .workers_design {
