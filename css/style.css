@@ -2654,9 +2654,11 @@ h1 {
     top: 0;
     transform: rotate(135deg);
   }
+  .scroll-infinity img {
+    max-width: 150%;
+  }
   .scroll-infinity {
-    top: 12%;
-    width: 150%;
+    top: 11%;
   }
   .circle {
     border-radius: 50%;
@@ -2844,7 +2846,7 @@ h1 {
   }
 
   .footer_logo_gray img {
-    max-width: 160px;
+    max-width: 180px;
   }
   .footer_lastlogo img {
     margin: auto;
