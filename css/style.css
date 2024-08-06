@@ -2447,7 +2447,7 @@ h1 {
   }
 
   .contact__item {
-    max-width: 300px;
+    max-width: 340px;
   }
 
   .career {
@@ -2664,7 +2664,7 @@ h1 {
     transform: rotate(135deg);
   }
   .scroll-infinity {
-    top: 9%;
+    top: 11%;
   }
   .circle {
     border-radius: 50%;
@@ -2941,7 +2941,7 @@ h1 {
   }
   .box2,
   .box3 {
-    width: 285px;
+    width: 300px;
   }
   .skill_wrap {
     margin-top: 100px;
@@ -2962,6 +2962,7 @@ h1 {
     max-width: 140px;
   }
   .skill_wrap p {
+    font-size: 14px;
     margin-bottom: 20px;
   }
   .box2 {
@@ -3005,6 +3006,14 @@ h1 {
   .contents_inner {
     border-radius: 0;
     margin-left: 0;
+    margin-top: 100px;
+  }
+  .cafe_points img,
+  .salon_points img,
+  .books_points img,
+  .pop_points img,
+  .lux_points img {
+    margin-top: 130px;
   }
   .books_points p,
   .books_plan,
@@ -3124,19 +3133,21 @@ h1 {
     max-width: 250px;
   }
   .item_wide img {
-    margin-left: 55px;
-    max-width: 250px;
-    max-width: a
-    ;
+    display: block;
+    margin: auto;
+    max-width: 300px;
   }
   .item_square img {
+    display: block;
     margin: auto;
-    margin-left: 80px;
     margin-top: 30px;
     max-width: 200px;
   }
   .lux_logo_works_beige img {
     display: none;
+  }
+  .target img {
+    margin-top: 100px;
   }
   .cafe_mockup img,
   .salon_mockup img {
