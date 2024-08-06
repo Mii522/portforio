@@ -2853,7 +2853,7 @@ h1 {
 
   .footer_logo_gray img,
   .footer_lastlogo {
-    max-width: 160px;
+    width: 120px;
   }
 
   .footer_instalogo_sp img {
