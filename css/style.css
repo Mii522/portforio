@@ -1547,14 +1547,6 @@ textarea {
   max-width: 335px;
 }
 
-.footer_lastlogo {
-  display: flex;
-  margin: auto;
-  margin-top: 150px;
-  max-width: 360px;
-  padding-bottom: 30px;
-}
-
 .footer_instalogo img {
   display: flex;
   max-width: 30px;
@@ -2447,7 +2439,7 @@ h1 {
   }
 
   .contact__item {
-    max-width: 340px;
+    max-width: 320px;
   }
 
   .career {
@@ -2851,9 +2843,12 @@ h1 {
     display: none;
   }
 
-  .footer_logo_gray img,
-  .footer_lastlogo {
-    width: 120px;
+  .footer_logo_gray img {
+    max-width: 160px;
+  }
+  .footer_lastlogo img {
+    margin: auto;
+    max-width: 160px;
   }
 
   .footer_instalogo_sp img {
