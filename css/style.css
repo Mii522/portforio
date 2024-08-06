@@ -51,6 +51,7 @@ a {
 }
 main {
   overflow: hidden;
+  position: relative;
 }
 
 .cursor {
@@ -794,7 +795,7 @@ textarea {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
-  margin-top: 220px;
+  margin-top: 100px;
   text-align: right;
 }
 
@@ -841,7 +842,6 @@ textarea {
   border-radius: 50%;
   height: 40px;
   margin-left: 18%;
-  margin-top: -130px;
   width: 40px;
 }
 
@@ -994,6 +994,7 @@ textarea {
   border-radius: 20px 0 0 20px;
   color: #fffdf3;
   margin-left: 60px;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -1929,7 +1930,7 @@ svg circle.line {
 .skill_wrap {
   display: flex;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 150px;
   max-width: 900px;
 }
 
@@ -2595,7 +2596,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .header-wrap {
     margin-top: 0;
     padding-top: 50px;
@@ -2932,8 +2933,8 @@ h1 {
   }
   .career_right  p {
     margin-bottom: 0;
-    padding-bottom: 180px;
-    width: 260px;
+    padding-bottom: 210px;
+    width: 300px;
   }
   .box_2 {
     margin-top: -80px;
@@ -2945,9 +2946,26 @@ h1 {
   .skill_wrap {
     margin-top: 100px;
   }
+  .skill_title {
+    font-size: 16px;
+    font-weight: bold;
+  }
   .skill_left img,
   .skill_right img {
     margin-bottom: 20px;
+  }
+  .skill_left img {
+    max-width: 100px;
+  }
+  .skill_right img {
+    margin-top: 0;
+    max-width: 140px;
+  }
+  .skill_wrap p {
+    margin-bottom: 20px;
+  }
+  .box2 {
+    padding-bottom: 30px;
   }
   .footer {
     margin-top: 70px;
