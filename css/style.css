@@ -2853,7 +2853,7 @@ h1 {
 
   .footer_logo_gray img,
   .footer_lastlogo {
-    max-width: 210px;
+    max-width: 160px;
   }
 
   .footer_instalogo_sp img {
@@ -2974,9 +2974,9 @@ h1 {
   .footer_logo img {
     max-width: 170px;
   }
-  .footer_lastlogo {
+  /* .footer_lastlogo {
     max-width: 160px;
-  }
+  } */
   .res_footer_back img {
     max-width: 60px;
   }
