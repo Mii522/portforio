@@ -1263,7 +1263,6 @@ textarea {
 .web_scroll-infinity,
 .cafe_scroll-infinity {
   animation: infinity-scroll-left 60s infinite linear .5s both;
-  display: flex;
   overflow: hidden;
   position: absolute;
   top: 10%;
@@ -2654,9 +2653,9 @@ h1 {
     top: 0;
     transform: rotate(135deg);
   }
-  .scroll-infinity {
-    max-width: 100%;
+  .scroll-infinity img {
     top: 11%;
+    width: 80%;
   }
 
   .circle {
