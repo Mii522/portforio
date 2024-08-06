@@ -2654,12 +2654,11 @@ h1 {
     top: 0;
     transform: rotate(135deg);
   }
-  .scroll-infinity img {
-    max-width: 150%;
-  }
   .scroll-infinity {
+    max-width: 100%;
     top: 11%;
   }
+
   .circle {
     border-radius: 50%;
     height: 25px;
