@@ -58,13 +58,13 @@ main {
   background: #68b1ab;
   border-radius: 30px;
   display: block;
-  height: 60px;
+  height: 40px;
   margin: -30px 0 0 -30px;
   opacity: 0;
   pointer-events: none;
   position: fixed;
   transition: transform .1s;
-  width: 60px;
+  width: 40px;
   z-index: 5000;
 }
 
@@ -276,7 +276,7 @@ main {
   max-width: 370px;
   position: absolute;
   right: 0;
-  top: 1180px;
+  top: 210px;
 }
 
 .works {
@@ -303,6 +303,7 @@ main {
   background-color: #404648;
   color: #fffdf3;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .contents_workers img {
@@ -1265,11 +1266,16 @@ textarea {
   animation: infinity-scroll-left 60s infinite linear .5s both;
   overflow: hidden;
   position: absolute;
-  top: 10%;
   width: 220%;
   z-index: -1;
 }
-
+.web_scroll-infinity {
+  top: 10%;
+}
+.cafe_scroll-infinity,
+.scroll-infinity {
+  top: 13%;
+}
 
 .workers_wrap {
   display: flex;
@@ -2268,7 +2274,7 @@ h1 {
     left: 0;
     position: absolute;
     top: -110px;
-    width: 100%;
+    width: 100vh;
     z-index: 3000;
   }
 
@@ -2848,7 +2854,7 @@ h1 {
   }
   .footer_lastlogo img {
     margin: auto;
-    max-width: 160px;
+    max-width: 180px;
   }
 
   .footer_instalogo_sp img {
@@ -3151,10 +3157,10 @@ h1 {
   .salon_mockup img {
     margin-left: -10px;
     margin-top: 0;
-    max-width: 360px;
+    max-width: 420px;
   }
   .workers_mockup img {
-    margin-left: 0;
+    margin-left: 25px;
     margin-top: 0;
     max-width: 380px;
   }
@@ -3258,14 +3264,21 @@ h1 {
     transform: rotate(135deg);
   }
   .arrow-bottom::before {
-    margin-left: 105px;
-  }
-  .arrow-bottom02::before {
     margin-left: 115px;
   }
-  .web_scroll-infinity,
+  .arrow-bottom02::before {
+    margin-left: 130px;
+  }
+  .web_scroll-infinity {
+    top: 8%;
+    width: 300%;
+  }
   .cafe_scroll-infinity {
-    top: 6%;
+    top: 9%;
+    width: 300%;
+  }
+  .scroll-infinity {
+    top: 10%;
     width: 400%;
   }
   .all_salon img {
