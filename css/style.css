@@ -420,7 +420,7 @@ main {
 }
 
 .btn_more p {
-  padding-left: 25%;
+  padding-left: 30%;
 }
 
 .btn_more a {
@@ -433,7 +433,7 @@ main {
   border-right: 1px solid #fffdf3;
   display: block;
   height: 5px;
-  margin-left: 60%;
+  margin-left: 65%;
   margin-top: -10px;
   transform: skew(20deg);
   width: 30px;
@@ -473,12 +473,10 @@ main {
   color: #404648;
   cursor: none;
 }
-
 .btn_more:hover .arrow {
   border-bottom: 1px solid #404648;
   border-right: 1px solid #404648;
 }
-
 
 .btn_more img {
   margin-left: 30px;
@@ -2013,7 +2011,9 @@ h1 {
   .section_works {
     padding-bottom: 130px;
   }
-
+  .contents_pop p {
+    top: 320px;
+  }
   .works_left,
   .works_right {
     margin: auto ;
