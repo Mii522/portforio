@@ -134,11 +134,8 @@ main {
 
 .pc-nav {
   display: block;
-  left: 50%;
   margin-right: 50px;
   text-align: right;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 .profile .pc-nav {
   display: flex;
@@ -164,6 +161,11 @@ main {
 
 .sp-nav {
   display: none;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
 }
 .hamburger {
   display: none;
