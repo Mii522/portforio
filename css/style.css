@@ -576,6 +576,8 @@ main {
 }
 
 .btn_profile .arrow {
+  border-bottom: 1px solid #404648;
+  border-right: 1px solid #404648;
   display: block;
   height: 5px;
   margin-left: 65%;
@@ -597,6 +599,8 @@ main {
 .btn_profile:hover .arrow,
 .btn_profile:hover a {
   background: #404648;
+  border-bottom: 1px solid #fffdf3;
+  border-right: 1px solid #fffdf3;
   color: #fffdf3;
   cursor: none;
 }
@@ -2589,10 +2593,6 @@ h1 {
 }
 
 @media screen and (max-width: 430px) {
-  .japanese_miyuki {
-    font-size: 24px;
-    margin-left: 20px;
-  }
   .header-wrap {
     margin-top: 0;
     padding-top: 50px;
