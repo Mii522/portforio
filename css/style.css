@@ -2819,6 +2819,8 @@ h1 {
   }
 
   .btn_profile .arrow {
+    border-bottom: 1px solid #404648;
+    border-right: 1px solid #404648;
     margin-left: 67%;
     width: 20px;
   }
