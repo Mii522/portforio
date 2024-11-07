@@ -103,7 +103,7 @@
         <section class="section_about" id="about">
             <div class="circle"></div>
             <p class="txt_about">about</p>
-            <div class="myphoto"><img src="links/2x/me@2x.png" alt="顔写真"></div>
+            <div class="myphoto"><img src="links/webp/me@2x.webp" alt="顔写真"></div>
             <div class="name">saito
                 <p class="miyuki">miyuki</p>
             </div> 
@@ -288,12 +288,13 @@
 </script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
-<script>var bar = new ProgressBar.Line(splash_text, {//id名を指定
+<script>
+    var bar = new ProgressBar.Line(splash_text, {//id名を指定
 	easing: 'easeInOut',//アニメーション効果linear、easeIn、easeOut、easeInOutが指定可能
 	duration: 1800,//時間指定(1000＝1秒)
-	strokeWidth: 0.2,//進捗ゲージの太さ
+	strokeWidth: .2,//進捗ゲージの太さ
 	color: '#68b1ab',//進捗ゲージのカラー
-	trailWidth: 0.2,//ゲージベースの線の太さ
+	trailWidth: .2,//ゲージベースの線の太さ
 	trailColor: '#bbb',//ゲージベースの線のカラー
 	text: {//テキストの形状を直接指定				
 		style: {//天地中央に配置
