@@ -48,6 +48,7 @@ body {
 
 a {
   cursor: none;
+  text-decoration: none;
 }
 main {
   overflow: hidden;
@@ -308,12 +309,6 @@ main {
 .contents_workers img {
   margin-top: 150px;
   max-width: 540px;
-}
-
-.contents_workers p,
-.contents_salon p {
-  margin-top: 20px;
-  text-align: left;
 }
 
 .contents_lux {
